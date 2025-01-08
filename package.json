@@ -1,0 +1,41 @@
+{
+  "displayName": "nftables-setup"
+  "name": "@ok-penalty-218/nftables-setup",
+  "version": "1.0.0",
+  "description": "a set of bash scripts to simplify nftables setup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OK-Penalty-218/nftables-setup.git"
+  },
+  "keywords": [
+    "nftables",
+    "firewall",
+    "setup"
+  ],
+  "author": "OK-Penalty-218",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/OK-Penalty-218/nftables-setup/issues"
+  },
+  "homepage": "https://github.com/OK-Penalty-218/nftables-setup#readme"
+  }
+  "files": [
+    "install.sh",
+    "uninstall.sh",
+    "update.sh",
+    "cmds/*",
+    "scripts/*"
+  ],
+  "scripts": {
+    "install": "sh ./install.sh",
+    "uninstall": "sh ./uninstall.sh",
+    "update": "sh ./update.sh"
+  }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
