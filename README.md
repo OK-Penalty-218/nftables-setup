@@ -14,12 +14,12 @@ npm install -g https://github.com/OK-Penalty-218/nftables-setup.git
 ## Initial Setup
 Default File Location: 
 ```bash
-\etc\nftables\
+/etc/nftables/
 ```
 Scripts and their accompanying commands:<br>
-```\etc\nftables\rules.sh``` = ```setup-fw```<br>
-```\etc\nftables\reset-rules.sh``` = ```reset-fw```<br>
-```\etc\nftables\secure-rules.sh``` = ```secure-fw```<br>
+```/etc/nftables/rules.sh``` = ```setup-fw```<br>
+```/etc/nftables/reset-rules.sh``` = ```reset-fw```<br>
+```/etc/nftables/secure-rules.sh``` = ```secure-fw```<br>
 
 Prior to running any commands ensure you edit the ```rules.sh``` file to create your preferred firewall rules.
 
@@ -35,7 +35,7 @@ Run command:
 ```bash
 sudo setup-fw
 ```
-In order to setup your nftables firewall with your rules established in the ```\etc\nftables\rules.sh``` file.<br>
+In order to setup your nftables firewall with your rules established in the ```/etc/nftables/rules.sh``` file.<br>
 If everything looks correct then you should see the following prompts:<br>
 ```
 user@machine:$sudo setup-fw
