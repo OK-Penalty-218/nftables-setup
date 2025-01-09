@@ -17,9 +17,9 @@ Default File Location:
 \etc\nftables\
 ```
 Scripts and their accompanying commands:<br>
-```\etc\nftables\rules.sh``` = ```setup-fw```
-```\etc\nftables\reset-rules.sh``` = ```reset-fw```
-```\etc\nftables\secure-rules.sh``` = ```secure-fw```
+```\etc\nftables\rules.sh``` = ```setup-fw```<br>
+```\etc\nftables\reset-rules.sh``` = ```reset-fw```<br>
+```\etc\nftables\secure-rules.sh``` = ```secure-fw```<br>
 
 Prior to running any commands ensure you edit the ```rules.sh``` file to create your preferred firewall rules.
 
