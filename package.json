@@ -1,5 +1,5 @@
 {
-  "displayName": "nftables-setup"
+  "displayName": "nftables-setup",
   "name": "@ok-penalty-218/nftables-setup",
   "version": "1.0.0",
   "description": "a set of bash scripts to simplify nftables setup.",
