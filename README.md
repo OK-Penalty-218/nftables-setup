@@ -1,4 +1,4 @@
-# Simplified nftables Setup
+# Simplified nftables Setup Tool
 a set of bash scripts to simplify the use of the nftables firewall.
 
 ## Installation
