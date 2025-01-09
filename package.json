@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/OK-Penalty-218/nftables-setup/issues"
   },
-  "homepage": "https://github.com/OK-Penalty-218/nftables-setup#readme"
+  "homepage": "https://github.com/OK-Penalty-218/nftables-setup#readme",
   }
   "files": [
     "install.sh",
@@ -34,6 +34,6 @@
     "scripts/*"
   ],
   "publishConfig": {
-    "registry": "https://github.com/OK-Penalty-218/nftables-setup.git"
+    "registry": "https://npm.pkg.github.com/OK-Penalty-218/nftables-setup.git"
   }
 }
