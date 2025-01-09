@@ -56,7 +56,7 @@ To secure your system ensure you run the following command locally from your mac
 ```bash
 sudo secure-fw
 ```
-Note: If you run this command from a remote session you will lose access.
+### If you run this command from a remote session you will lose access.
 
-### Notes
+## Notes
 It is recommended that you run all commands with ```sudo``` to avoid running into permission issues.
