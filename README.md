@@ -23,7 +23,7 @@ Scripts and their accompanying commands:<br>
 
 Prior to running any commands ensure you edit the ```rules.sh``` file to create your preferred firewall rules.
 
-## Post-Insallation and Configuration
+## Post-Installation and Configuration
 Run command:
 ```bash
 sudo reset-fw
@@ -39,7 +39,7 @@ In order to setup your nftables firewall with your rules established in the ```\
 If everything looks correct then you should see the following prompts:<br>
 ```
 user@machine:$sudo setup-fw
-[sudo] password for administrator:
+[sudo] password for user:
 Running 'rules.sh' to setup preset nftables firewall rules...
 Firewall rules successfully applied.
 user@machine:$
